@@ -33,13 +33,13 @@ function App() {
      
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<NavBar />} >
-            <Route path="/hero_section"  element={<HeroSection/>} />
-            <Route path="/about_section" element={<AboutSection/>} />
-            <Route path="/skill_section" element={<SkillSection/>} />
-            <Route path="/project_section" element={<ProjectSection/>} />
-            <Route path="/blog_section" element={<BlogSection/>} />
-            <Route path="/contact_section" element={<ContactSection/>} />
+          <Route path="/ericaborromeo" element={<NavBar />} >
+            <Route path="/ericaborromeo/hero_section"  element={<HeroSection/>} />
+            <Route path="/ericaborromeo//about_section" element={<AboutSection/>} />
+            <Route path="/ericaborromeo//skill_section" element={<SkillSection/>} />
+            <Route path="/ericaborromeo//project_section" element={<ProjectSection/>} />
+            <Route path="/ericaborromeo//blog_section" element={<BlogSection/>} />
+            <Route path="/ericaborromeo//contact_section" element={<ContactSection/>} />
 
 
           </Route>
