@@ -5,14 +5,14 @@ const BlogSection = () => {
     return(
         <>         
 
-        <section className="section blog-section" id="#blogSection" data-aos="fade-up" >
+        <section className="section blog-section" id="#blogSection">
             <div  className="blog-container"> 
                 <h4 data-aos="fade-down">BLOGS</h4> <br />
 
                 <div className="blog-cards">             
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-5 col-xl-4">
-                            <img className="img-fluid" src="https://blog.emborromeo.com/wp-content/uploads/2021/11/testing-the-API-i-made-by-creating-a-firefox-add-on-called-stoic-sayings-tab.png"/>
+                            <img className="img-fluid" src="https://blog.emborromeo.com/wp-content/uploads/2021/11/testing-the-API-i-made-by-creating-a-firefox-add-on-called-stoic-sayings-tab.png" alt="featured image"/>
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-7 col-xl-8 container-fluid">
@@ -27,7 +27,7 @@ const BlogSection = () => {
                 <div className="blog-cards">
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-5 col-xl-4">
-                            <img className="img-fluid" src="https://blog.emborromeo.com/wp-content/uploads/2021/09/blog1.png"/>
+                            <img className="img-fluid" src="https://blog.emborromeo.com/wp-content/uploads/2021/09/blog1.png" alt="featured image"/>
                         </div>
 
                        <div className="col-12 col-md-6 col-lg-7 col-xl-8 container-fluid">
@@ -44,7 +44,7 @@ const BlogSection = () => {
                 <div className="blog-cards">
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-5 col-xl-4">
-                            <img className="img-fluid" src="https://blog.emborromeo.com/wp-content/uploads/2021/09/blog2.png"/>
+                            <img className="img-fluid" src="https://blog.emborromeo.com/wp-content/uploads/2021/09/blog2.png" alt="featured image"/>
                         </div>
 
                        <div className="col-12 col-md-6 col-lg-7 col-xl-8 container-fluid">
@@ -61,7 +61,7 @@ const BlogSection = () => {
                 <div className="blog-cards">
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-5 col-xl-4">
-                            <img className="img-fluid" src="https://blog.emborromeo.com/wp-content/uploads/2021/08/build-a-harry-potter-character-search-web-app-with-hp-api-1024x768-1.png"/>
+                            <img className="img-fluid" src="https://blog.emborromeo.com/wp-content/uploads/2021/08/build-a-harry-potter-character-search-web-app-with-hp-api-1024x768-1.png" alt="featured image"/>
                         </div>
 
                        <div className="col-12 col-md-6 col-lg-7 col-xl-8 container-fluid">
@@ -78,7 +78,7 @@ const BlogSection = () => {
                 <div className="blog-cards">
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-5 col-xl-4">
-                            <img className="img-fluid" src="https://blog.emborromeo.com/wp-content/uploads/2021/08/affordable-coding-training-centers-in-the-philippines-1024x768-1.png"/>
+                            <img className="img-fluid" src="https://blog.emborromeo.com/wp-content/uploads/2021/08/affordable-coding-training-centers-in-the-philippines-1024x768-1.png" alt="featured image"/>
                         </div>
 
                        <div className="col-12 col-md-6 col-lg-7 col-xl-8 container-fluid">

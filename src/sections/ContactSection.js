@@ -55,18 +55,17 @@ const ContactSection = () => {
                 
                             <div className="text-center"><button type="submit" className="btn btn-send">{messageStatus}</button></div>
                         </form>
-                    </div>
-
-                     
-                    <footer className="section footer"  id="#footerSection">
-                        <img src={logo} alt="me" style={{width: "70px"}}/>
-                        <div className="copyright">
-                            &copy; EM Borromeo 2022
-                        </div>
-                    </footer>      
+                    </div>  
                 </div>
                                
             </section>
+
+            <footer className="section footer"  id="#footerSection">
+                <img src={logo} alt="logo" id="logo"/>
+                <div className="copyright">
+                    &copy; EM Borromeo 2022
+                </div>
+            </footer>    
         </>    
      
     )

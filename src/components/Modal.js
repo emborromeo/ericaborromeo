@@ -45,7 +45,7 @@ const Modal = (props) => {
         {props.children}
           <div className="project-modal">
               <h3>{title}</h3>
-              <img src={projImg[props.projId]} style={{width: '90%'}} /> 
+              <img src={projImg[props.projId]} style={{width: '90%'}} alt="mock image of project" /> 
               <br/>
               {/*Brief Description */}  
               <br/>
@@ -69,12 +69,12 @@ const Modal = (props) => {
               </div>
 
               {/*Screenshots */}  
-              <div className="row">
-                <div className="col-6">
-                  <img src={leftImg[props.projId]} style={{width: '90%'}} /> 
+              <div className="row gy-2">
+                <div className="col-12 col-sm-6">
+                  <img src={leftImg[props.projId]} style={{width: '90%'}} alt="screenshot one of the project"/> 
                 </div>
-                <div className="col-6">
-                  <img src={rightImg[props.projId]} style={{width: '90%'}} /> 
+                <div className="col-12 col-sm-6">
+                  <img src={rightImg[props.projId]} style={{width: '90%'}} alt="screenshot two of the project" /> 
                 </div>                
               </div>
 

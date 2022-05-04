@@ -131,37 +131,38 @@ const ProjectSection = (props) => {
         <>
           {status && (
             <Modal closeModal={() => setStatus(false)} 
-              title={projTitle[projID]} description={projDescription[projID]} link={projLinks[projID]} features={projFeatures[projID]} tools={projTools[projID]} projId={projID}> 
+              title={projTitle[projID]} description={projDescription[projID]} link={projLinks[projID]} repo={projRepo[projID]} features={projFeatures[projID]} tools={projTools[projID]} projId={projID}> 
             </Modal>
           )}
        
-          <section className="section project-section" id="#projectSection" data-aos="fade-up">
+          <section className="section project-section" id="#projectSection">
               
             <div className="project-container">
               <h4 data-aos="fade-down">PROJECTS</h4>
               <div className="row row-one g-0">
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(0) }} data-aos="fade-right" >
-                  <img className="img-fluid" src="https://i.ibb.co/YZwT6D9/game-builder.png"/>
+
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(0)}}>
+                  <img className="img-fluid" src="https://i.ibb.co/YZwT6D9/game-builder.png" alt="project mock up"/>
                 </div>
 
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(1)}} data-aos="fade-right" >
-                  <img className="img-fluid" src="https://i.ibb.co/j5MKm1t/interior-website.png"/>
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(1)}}>
+                  <img className="img-fluid" src="https://i.ibb.co/j5MKm1t/interior-website.png" alt="project mock up"/>
                 </div>
 
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(2)}} data-aos="fade-right" >
-                  <img className="img-fluid" src="https://i.ibb.co/fS6bLNq/stoic-api.png"/>
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(2)}}>
+                  <img className="img-fluid" src="https://i.ibb.co/fS6bLNq/stoic-api.png" alt="project mock up"/>
                 </div>
 
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(3)}} data-aos="fade-left" >
-                  <img className="img-fluid" src="https://i.ibb.co/TR3tSTx/blog-site.png"/>
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(3)}}>
+                  <img className="img-fluid" src="https://i.ibb.co/TR3tSTx/blog-site.png" alt="project mock up"/>
                 </div>
 
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(4)}} data-aos="fade-left" >
-                  <img className="img-fluid" src="https://i.ibb.co/yNcr8GH/elle.png"/>
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(4)}}>
+                  <img className="img-fluid" src="https://i.ibb.co/yNcr8GH/elle.png" alt="project mock up"/>
                 </div>
 
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(5)}}data-aos="fade-left" >
-                  <img className="img-fluid" src="https://i.ibb.co/Vgh9Mvd/weekend-site.png"/>
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(5)}}>
+                  <img className="img-fluid" src="https://i.ibb.co/Vgh9Mvd/weekend-site.png" alt="project mock up"/>
                 </div>
 
               </div>

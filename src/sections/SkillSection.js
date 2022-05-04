@@ -17,28 +17,28 @@ const SkillSection = () => {
                     <h4>SKILLS</h4>
                     <div className="row skill-tools g-0">
                         <div className="col col-3">
-                            <img className="img-fluid" src={react} />
+                            <img className="img-fluid" src={react} alt="skill logo"/>
                         </div>
                         <div className="col col-3">
-                            <img className="img-fluid" src={git} />
+                            <img className="img-fluid" src={git} alt="skill logo"/>
                         </div>
                         <div className="col col-3">
-                            <img className="img-fluid" src={github} />
+                            <img className="img-fluid" src={github} alt="skill logo"/>
                         </div>
                         <div className="col col-3">
-                            <img className="img-fluid" src={node} />
+                            <img className="img-fluid" src={node} alt="skill logo"/>
                         </div>
                     </div>
 
                     <div className="row skill-tools g-0">
                         <div className="col col-3">
-                            <img className="img-fluid" src={html} />
+                            <img className="img-fluid" src={html} alt="skill logo"/>
                         </div>
                         <div className="col col-3">
-                            <img className="img-fluid" src={css} />
+                            <img className="img-fluid" src={css} alt="skill logo"/>
                         </div>
                         <div className="col col-3">
-                            <img className="img-fluid" src={js} />
+                            <img className="img-fluid" src={js} alt="skill logo"/>
                         </div>
                        
                     </div>

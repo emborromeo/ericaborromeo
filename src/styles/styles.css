@@ -44,9 +44,12 @@ span, p, li{
 .social-links i {
     font-size: 24px;
     display: inline-block;
-    color: #4db4d7;
-    line-height: 1;
+    color: #a1e3ba;
+    line-height: 1.7;
     transition: 0.3s;
+    filter: drop-shadow(5px 7px 5px -1px rgba(166,183,232,0.76));
+
+    
 }
 
 /*SECTIONS*/
@@ -57,7 +60,7 @@ span, p, li{
 
 /*HOME*/
 .hero-section{
-    background: url("../assets/imgs/blog.png");
+    background: url("../assets/imgs/nhero.png");
     background-size: cover ;
     background-repeat: no-repeat;
     width: 100%;
@@ -67,17 +70,22 @@ span, p, li{
 */
 }
 .header{
+   
     position: absolute;
-    top: 40%;
-    text-align: center;
+    top: 30%;
+    left: 7%;
 }
 .header h1{
+    padding: 20px;
+    width: fit-content;
     color: #fff;
-    margin: 0;
     letter-spacing: 6px;
+    margin:  0;
+    padding: 0;
     line-height:.9em;
-    font-size: 200px;
     font-family: "gilroy";
+    text-align:center !important;
+
 }
 
 .header h3{
@@ -87,15 +95,17 @@ span, p, li{
 }
 
 .hero-btn{
-    border: 3px solid #4db4d7;
-    background: none;
+    border: 3px solid #a1e3ba;
+    background:none;
+
     color: #fff;
     letter-spacing: 3px;
     border-radius: 20px;
 }
 .hero-btn:hover{
+    background: #a1e3ba;
+
     color: #fff;
-    background: #4db4d7;
     font-weight: bold;
 }
 .contact-links a{
@@ -103,7 +113,7 @@ span, p, li{
 }
 /*ABOUT*/
 .about-section{
-    background: #fff;
+    background:#fff;   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,9 +129,9 @@ span, p, li{
 }
 .about-container h4{
     text-align:center;
-    color: #c19cce;
+    color: #859ad5;
     margin: 0px 0 50px 0;
-
+    
 }
 .basic-info div{
     display: flex;
@@ -132,7 +142,7 @@ span, p, li{
     width: 300px;
 }
 .about-info li b{
-    color: rgb(242, 152, 165);
+    color:#a1e3ba;
 }
 .about-info .social-links {
     display:block !important;
@@ -147,22 +157,23 @@ span, p, li{
     text-align: center;
 }
 .cv-button{
+    margin-top: 5%;
     width:160px;
     height:40px;
     font-size:16px;
     border-radius: 20px;
-    border: 3px solid #68def8;
+    border: 3px solid #a1e3ba;
 
 }
 .cv-button:hover{
     color: #fff;
-    background:#68def8;
+    background:#a1e3ba;
     font-weight: bold;
 
 }
 /*SKILLS*/
 .skill-section{
-    background: #fff;  
+    background: #fff;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,7 +185,7 @@ span, p, li{
 }
 .skill-container h4{
     text-align:center;
-    color: #c19cce;
+    color: #859ad5;
     margin: 0px 0 50px 0;
     margin-bottom: 10%;
 
@@ -210,14 +221,14 @@ span, p, li{
 }
 .project-container h4{
     text-align:center;
-    color: #c19cce;
+    color: #859ad5;
     margin: 0px 0 50px 0;
 
 }
 
 
 .proj-card img{
-  
+    border: 1px solid #a0b2e4;
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
 }
@@ -269,7 +280,7 @@ span, p, li{
 /*BLOG*/
 .blog-section{
     
-    background: url("../assets/imgs/blog-sect.png");
+    background: url("../assets/imgs/blog.png");
     background-size: cover ;
     background-repeat: no-repeat;
     display: flex;
@@ -286,7 +297,7 @@ span, p, li{
 }
 .blog-container h4{
     text-align:center;
-    color: #c19cce;
+    color: #859ad5;
     margin: 0px 0 50px 0;
 }
 
@@ -295,7 +306,7 @@ span, p, li{
     height:auto;
     border-radius:20px;
     padding: 20px 10px;
-    background: rgba(242, 152, 165, .7);
+    background:#a1e3ba;
 
 }
 
@@ -326,7 +337,9 @@ span, p, li{
 /*CONTACT*/
 .contact-section{
     
-    background-color: #604f6f ;
+    background: url("../assets/imgs/contact.png");
+    background-size: cover ;
+    background-repeat: no-repeat;    
     width: 100%;
     height:auto;
     display: flex;
@@ -343,7 +356,7 @@ span, p, li{
 }
 .form-group input, 
 .form-group textarea{
-    background:rgb(129, 112, 146, .7);
+    background:#889bcf;
     border-radius: 15px;
     margin: 10px 0;
     font-size:14px;
@@ -358,7 +371,7 @@ span, p, li{
     color:#fff;
 }
 .btn-send{
-    background-color: #c19cce;  
+    background-color: #6f86c7;  
     border-radius: 15px;
     color: #fff;
     border: none;
@@ -369,7 +382,7 @@ span, p, li{
 }
 
 .btn-send:hover{
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    filter: drop-shadow(5px 5px 5px rgba(75, 93, 145, 0.3));
     color: #fff;
 }
 
@@ -394,7 +407,7 @@ form{
     margin: 5px 0 5px 0;
 }
 .contact-links a{
-    color:#4db4d7 !important;
+    color:#a1e3ba !important;
     font-size: 24px;
 }
 .get-touch ul > li{
@@ -402,11 +415,16 @@ form{
 }
 /*FOOTER*/
 .footer{
-    margin-top:20%;
     color:#fff;
     text-align: center;
     height: 100px;
+    background-color: #a0b2e4 !important;
+    padding-top: 20px;
 }
+#logo{
+    width: 50px;
+}
+
 footer .copyright {
    bottom: 0;
    font-size:14px;
@@ -435,7 +453,7 @@ footer .copyright {
     /*HERO*/
     .header{
         width: 80%;
-        transform: translate(15%, -50%);
+        transform: translate(15%, -20%);
     }
     .header h1{
         font-size: 60px;
@@ -489,7 +507,14 @@ footer .copyright {
         margin: 20px 0;
     }
     .content{
-        width:70vw !important;
+        width:75vw !important;
+    }
+    .btn-demo{
+        margin: 10% 10% 10% 3%;
+    }
+    .btn-repo{
+        margin: 10% 15% 10% 0% !important;
+
     }
     /*BLOG*/
     .blog-container{
@@ -506,9 +531,14 @@ footer .copyright {
     .get-touch{
         text-align: center;
     }
-  
     .get-touch ul {
         padding-left:0;
+    }
+  
+    .btn-gotop{
+        right: 10px !important;
+        bottom:10px !important;
+
     }
 }
 
@@ -516,7 +546,7 @@ footer .copyright {
 /*col-sm*/
 @media screen and (min-width: 577px) and (max-width: 768px) {
     /*HERO*/
-   
+  
     .header h1{
         font-size: 75px;
     }
@@ -582,6 +612,10 @@ footer .copyright {
   
     .get-touch ul {
         padding-left:0;
+    }
+    .btn-gotop{
+        right: 25px;
+        bottom: 15px !important;   
     }
 
 }
@@ -657,6 +691,11 @@ footer .copyright {
   
     .get-touch ul {
         padding-left:0;
+    }
+
+    .btn-gotop{
+        right: 25px;
+        bottom: 15px !important;   
     }
 
 }
@@ -845,9 +884,9 @@ footer .copyright {
     height: 50px;
     bottom: 60px;
     right: 30px;
-    border: solid 1px #4db4d7;
+    border: solid 1px #a1e3ba;
     border-radius: 50%;
-    color: #4db4d7;
+    color: #a1e3ba;
     background-color: transparent;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     opacity: 0;
@@ -863,7 +902,7 @@ footer .copyright {
   
     .btn-gotop:hover {
       color:#fff;
-      background-color: #4db4d7;
+      background-color: #a1e3ba;
     }
   
   
