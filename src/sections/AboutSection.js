@@ -7,14 +7,14 @@ const AboutSection = () => {
         <>    
             <section className="section about-section" id="#aboutSection">
                 <div className="about-container">
-                    <h4>ABOUT EM</h4>
+                    <h4 data-aos="fade-down">ABOUT EM</h4>
                     <div className="row basic-info">
-                        <div className="col-12 col-sm-5 col-md-6 col-lg-6">
-                        <img src={img} alt="portfolio owner"/>
+                        <div className="col-12 col-sm-5 col-md-6 col-lg-6" >
+                        <img src={img} alt="portfolio owner" data-aos="fade-right"/>
                         </div>
 
                         <div className="col-12 col-sm-7 col-md-6 col-lg-6" >   
-                            <ul className="about-info">
+                            <ul className="about-info" data-aos="fade-left">
                                 <li><b>NAME</b></li>
                                 <li>Erica Mae Borromeo</li>
                                 <li><b>EMAIL</b></li>
@@ -27,7 +27,7 @@ const AboutSection = () => {
 
                     </div>
 
-                    <div className="row interests">
+                    <div className="row interests" data-aos="fade-up">
                         <p>      
                         It’s me E.M, a wanderer by heart who was fascinated by motherboards at five, now exploring her passion in the field of Information Technology and currently creating her own path to become what she always wanted to be- a full-stack developer.
                         </p>

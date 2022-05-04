@@ -5,11 +5,11 @@ const BlogSection = () => {
     return(
         <>         
 
-        <section className="section blog-section" id="#blogSection">
+        <section className="section blog-section" id="#blogSection" data-aos="fade-down">
             <div  className="blog-container"> 
-                <h4 data-aos="fade-down">BLOGS</h4> <br />
+                <h4 >BLOGS</h4> <br />
 
-                <div className="blog-cards">             
+                <div className="blog-cards" >             
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-5 col-xl-4">
                             <img className="img-fluid" src="https://blog.emborromeo.com/wp-content/uploads/2021/11/testing-the-API-i-made-by-creating-a-firefox-add-on-called-stoic-sayings-tab.png" alt="featured image"/>
@@ -92,6 +92,8 @@ const BlogSection = () => {
                        </div>  
                     </div>
                 </div>
+
+
             </div>
 
         </section>

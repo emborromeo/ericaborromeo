@@ -73,10 +73,9 @@ span, p, li{
    
     position: absolute;
     top: 30%;
-    left: 7%;
+    padding-left: 7%;
 }
 .header h1{
-    padding: 20px;
     width: fit-content;
     color: #fff;
     letter-spacing: 6px;
@@ -244,12 +243,12 @@ span, p, li{
     padding-left: 0 !important;
 }
 .project-modal h3{
-    color: #c19cce;
+    color: #859ad5;
     text-align: center;
     margin-bottom: 5%;
 }
 .project-modal h5{
-    color: #c19cce;
+    color: #859ad5;
 
 }
 .project-modal {
@@ -265,14 +264,15 @@ span, p, li{
     border-radius: 20px;
     text-align: center;
     margin: 10% 10% 10% 15%;
-    border: 3px solid #68def8;
+    border: 3px solid #a1e3ba;
+
 }
 .btn-repo{
     margin: 10% 15% 10% -10% !important;
 
 }
 .btn-demo:hover, .btn-repo:hover{
-    background:#68def8;
+    background:#a1e3ba;
     color:#fff;
 }
 
@@ -294,6 +294,7 @@ span, p, li{
     width:  65%;
     height: 75%;
     overflow-y:scroll;
+    text-align: center;
 }
 .blog-container h4{
     text-align:center;
@@ -349,10 +350,23 @@ span, p, li{
 
 
 }
+.more-button{
+    width:160px;
+    height:40px;
+    font-size:16px;
+    border-radius: 20px;
+    border: 3px solid #a1e3ba;
+    margin-top: -50px;
+
+}
+.contact-form{
+    margin-top: 10% !important;
+}
 .contact-section .row{
    /* background:teal;*/ 
     height: auto;
     width:60%;
+    text-align: center;
 }
 .form-group input, 
 .form-group textarea{
@@ -452,8 +466,11 @@ footer .copyright {
 @media screen and (max-width: 576px) {
     /*HERO*/
     .header{
+        text-align:center;
         width: 80%;
-        transform: translate(15%, -20%);
+        transform: translate(15%, 0) !important;
+        margin: 0;
+
     }
     .header h1{
         font-size: 60px;
@@ -484,7 +501,6 @@ footer .copyright {
    
     /*SKILLS*/
     .skill-section{
-        background:indigo;
         height: auto;
         
     }
@@ -546,7 +562,11 @@ footer .copyright {
 /*col-sm*/
 @media screen and (min-width: 577px) and (max-width: 768px) {
     /*HERO*/
-  
+    .header{
+        width: fit-content;
+        top: 30%;
+        padding-left: 3%;
+    }
     .header h1{
         font-size: 75px;
     }
@@ -624,7 +644,11 @@ footer .copyright {
 /*col-md TABLET*/ 
 @media screen and (min-width: 767px)  {
     /*HERO*/
-   
+    .header{
+        width: fit-content;
+        top: 30%;
+        padding-left: 5%;
+    }
     .header h1{
         font-size: 75px;
     }
@@ -704,7 +728,11 @@ footer .copyright {
 /*col-lg*/
 @media screen and (min-width: 993px) and (max-width: 1200px) {
      /*HERO*/
-   
+     .header{
+        width: fit-content;
+        top: 30%;
+        padding-left: 7%;
+    }
     .header h1{
         font-size: 80px;
     }

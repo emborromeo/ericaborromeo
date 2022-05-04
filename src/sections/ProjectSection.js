@@ -141,29 +141,31 @@ const ProjectSection = (props) => {
               <h4 data-aos="fade-down">PROJECTS</h4>
               <div className="row row-one g-0">
 
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(0)}}>
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(0)}} data-aos="fade-up">
                   <img className="img-fluid" src="https://i.ibb.co/YZwT6D9/game-builder.png" alt="project mock up"/>
                 </div>
 
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(1)}}>
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(1)}} data-aos="fade-down">
                   <img className="img-fluid" src="https://i.ibb.co/j5MKm1t/interior-website.png" alt="project mock up"/>
                 </div>
 
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(2)}}>
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(2)}} data-aos="fade-up">
                   <img className="img-fluid" src="https://i.ibb.co/fS6bLNq/stoic-api.png" alt="project mock up"/>
                 </div>
 
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(3)}}>
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(3)}} data-aos="fade-down">
                   <img className="img-fluid" src="https://i.ibb.co/TR3tSTx/blog-site.png" alt="project mock up"/>
                 </div>
 
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(4)}}>
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(4)}} data-aos="fade-up">
                   <img className="img-fluid" src="https://i.ibb.co/yNcr8GH/elle.png" alt="project mock up"/>
                 </div>
 
-                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(5)}}>
+                <div className="col col-12 col-md-6 col-lg-4 proj-card" onClick={() => {setStatus(true); setProjID(5)}} data-aos="fade-down">
                   <img className="img-fluid" src="https://i.ibb.co/Vgh9Mvd/weekend-site.png" alt="project mock up"/>
                 </div>
+
+                <a href="https://github.com/emborromeo" target="_blank"><button type="button" className="btn cv-button" >More projects <i class='bx bx-right-arrow-alt'></i></button> </a>
 
               </div>
             </div>

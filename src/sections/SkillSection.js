@@ -12,10 +12,10 @@ import github from '../assets/imgs/github.png'
 const SkillSection = () => {
     return(
         <>
-            <section className="section skill-section"  data-aos="fade-up" id="#skillSection">
+            <section className="section skill-section"  id="#skillSection">
                 <div className="skill-container">
-                    <h4>SKILLS</h4>
-                    <div className="row skill-tools g-0">
+                    <h4 data-aos="fade-down">SKILLS</h4>
+                    <div className="row skill-tools g-0" data-aos="fade-up">
                         <div className="col col-3">
                             <img className="img-fluid" src={react} alt="skill logo"/>
                         </div>
@@ -30,7 +30,7 @@ const SkillSection = () => {
                         </div>
                     </div>
 
-                    <div className="row skill-tools g-0">
+                    <div className="row skill-tools g-0" data-aos="fade-up">
                         <div className="col col-3">
                             <img className="img-fluid" src={html} alt="skill logo"/>
                         </div>

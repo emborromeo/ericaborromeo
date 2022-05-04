@@ -37,9 +37,12 @@ const ContactSection = () => {
       }
     return (
         <>
-      
+
             <section className="section contact-section" id="#contactSection">
-                <div className="row"> 
+
+                <div className="row">                 
+                    <a href="https://blog.emborromeo.com/" target="_blank"><button type="button" className="btn more-button" >More blogs <i class='bx bx-right-arrow-alt'></i></button> </a>
+
                     <div className="contact-form">
                         <h4 data-aos="fade-down">GET IN TOUCH</h4>       
                         <form onSubmit={handleClick} data-aos="fade-up">
