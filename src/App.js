@@ -53,7 +53,6 @@ function App() {
       <BlogSection/>
       <ContactSection/>
       
-      <ScrollTop />
 
 
     </>
